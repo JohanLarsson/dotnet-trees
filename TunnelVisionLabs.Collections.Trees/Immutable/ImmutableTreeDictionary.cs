@@ -26,20 +26,20 @@ namespace TunnelVisionLabs.Collections.Trees.Immutable
 
         public static ImmutableTreeDictionary<TKey, TValue> CreateRange<TKey, TValue>(IEqualityComparer<TKey> keyComparer, IEqualityComparer<TValue> valueComparer, IEnumerable<KeyValuePair<TKey, TValue>> items) => throw null;
 
-        public static ImmutableTreeDictionary<TKey, TValue> ToImmutableDictionary<TKey, TValue>(this IEnumerable<KeyValuePair<TKey, TValue>> items) => throw null;
+        public static ImmutableTreeDictionary<TKey, TValue> ToImmutableTreeDictionary<TKey, TValue>(this IEnumerable<KeyValuePair<TKey, TValue>> items) => throw null;
 
-        public static ImmutableTreeDictionary<TKey, TValue> ToImmutableDictionary<TKey, TValue>(this IEnumerable<KeyValuePair<TKey, TValue>> items, IEqualityComparer<TKey> keyComparer) => throw null;
+        public static ImmutableTreeDictionary<TKey, TValue> ToImmutableTreeDictionary<TKey, TValue>(this IEnumerable<KeyValuePair<TKey, TValue>> items, IEqualityComparer<TKey> keyComparer) => throw null;
 
-        public static ImmutableTreeDictionary<TKey, TValue> ToImmutableDictionary<TKey, TValue>(this IEnumerable<KeyValuePair<TKey, TValue>> items, IEqualityComparer<TKey> keyComparer, IEqualityComparer<TValue> valueComparer) => throw null;
+        public static ImmutableTreeDictionary<TKey, TValue> ToImmutableTreeDictionary<TKey, TValue>(this IEnumerable<KeyValuePair<TKey, TValue>> items, IEqualityComparer<TKey> keyComparer, IEqualityComparer<TValue> valueComparer) => throw null;
 
-        public static ImmutableTreeDictionary<TKey, TValue> ToImmutableDictionary<TSource, TKey, TValue>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TValue> elementSelector) => throw null;
+        public static ImmutableTreeDictionary<TKey, TValue> ToImmutableTreeDictionary<TSource, TKey, TValue>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TValue> elementSelector) => throw null;
 
-        public static ImmutableTreeDictionary<TKey, TValue> ToImmutableDictionary<TSource, TKey, TValue>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TValue> elementSelector, IEqualityComparer<TKey> keyComparer) => throw null;
+        public static ImmutableTreeDictionary<TKey, TValue> ToImmutableTreeDictionary<TSource, TKey, TValue>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TValue> elementSelector, IEqualityComparer<TKey> keyComparer) => throw null;
 
-        public static ImmutableTreeDictionary<TKey, TValue> ToImmutableDictionary<TSource, TKey, TValue>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TValue> elementSelector, IEqualityComparer<TKey> keyComparer, IEqualityComparer<TValue> valueComparer) => throw null;
+        public static ImmutableTreeDictionary<TKey, TValue> ToImmutableTreeDictionary<TSource, TKey, TValue>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TValue> elementSelector, IEqualityComparer<TKey> keyComparer, IEqualityComparer<TValue> valueComparer) => throw null;
 
-        public static ImmutableTreeDictionary<TKey, TSource> ToImmutableDictionary<TSource, TKey>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector) => throw null;
+        public static ImmutableTreeDictionary<TKey, TSource> ToImmutableTreeDictionary<TSource, TKey>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector) => throw null;
 
-        public static ImmutableTreeDictionary<TKey, TSource> ToImmutableDictionary<TSource, TKey>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector, IEqualityComparer<TKey> keyComparer) => throw null;
+        public static ImmutableTreeDictionary<TKey, TSource> ToImmutableTreeDictionary<TSource, TKey>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector, IEqualityComparer<TKey> keyComparer) => throw null;
     }
 }
