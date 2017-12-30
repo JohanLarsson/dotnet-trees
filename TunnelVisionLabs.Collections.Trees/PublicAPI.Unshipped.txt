@@ -248,7 +248,6 @@ TunnelVisionLabs.Collections.Trees.TreeQueue<T>.Enqueue(T item) -> void
 TunnelVisionLabs.Collections.Trees.TreeQueue<T>.Enumerator
 TunnelVisionLabs.Collections.Trees.TreeQueue<T>.Enumerator.Current.get -> T
 TunnelVisionLabs.Collections.Trees.TreeQueue<T>.Enumerator.Dispose() -> void
-TunnelVisionLabs.Collections.Trees.TreeQueue<T>.Enumerator.Enumerator() -> void
 TunnelVisionLabs.Collections.Trees.TreeQueue<T>.Enumerator.MoveNext() -> bool
 TunnelVisionLabs.Collections.Trees.TreeQueue<T>.GetEnumerator() -> TunnelVisionLabs.Collections.Trees.TreeQueue<T>.Enumerator
 TunnelVisionLabs.Collections.Trees.TreeQueue<T>.Peek() -> T
