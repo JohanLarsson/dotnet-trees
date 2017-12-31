@@ -281,7 +281,6 @@ TunnelVisionLabs.Collections.Trees.TreeStack<T>.Count.get -> int
 TunnelVisionLabs.Collections.Trees.TreeStack<T>.Enumerator
 TunnelVisionLabs.Collections.Trees.TreeStack<T>.Enumerator.Current.get -> T
 TunnelVisionLabs.Collections.Trees.TreeStack<T>.Enumerator.Dispose() -> void
-TunnelVisionLabs.Collections.Trees.TreeStack<T>.Enumerator.Enumerator() -> void
 TunnelVisionLabs.Collections.Trees.TreeStack<T>.Enumerator.MoveNext() -> bool
 TunnelVisionLabs.Collections.Trees.TreeStack<T>.GetEnumerator() -> TunnelVisionLabs.Collections.Trees.TreeStack<T>.Enumerator
 TunnelVisionLabs.Collections.Trees.TreeStack<T>.Peek() -> T
